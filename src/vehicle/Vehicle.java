@@ -7,7 +7,8 @@ abstract public class Vehicle implements IPrintable {
     private final String make;
     private final String plate;
 
-    public Vehicle(String make, String plate) {
+    public Vehicle(String make,
+                   String plate) {
         this.make = make;
         this.plate = plate;
     }

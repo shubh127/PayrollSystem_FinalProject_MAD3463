@@ -4,7 +4,10 @@ public class Motorcycle extends Vehicle {
     private final int cc;
     private final boolean hasPillionSeat;
 
-    public Motorcycle(String make, String plate, int cc, boolean hasPillionSeat) {
+    public Motorcycle(String make,
+                      String plate,
+                      int cc,
+                      boolean hasPillionSeat) {
         super(make, plate);
         this.cc = cc;
         this.hasPillionSeat = hasPillionSeat;

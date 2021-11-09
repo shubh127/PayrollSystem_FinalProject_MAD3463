@@ -9,20 +9,46 @@ public class Main {
     public static void main(String[] args) {
 
         //Creating "Car" class objects
-        Car car1 = new Car("BMW", "FGH8997", 4, true);
-        Car car2 = new Car("Mercedes", "YYT8978", 2, false);
+        Car car1 = new Car("BMW",
+                "FGH8997",
+                4,
+                true);
+        Car car2 = new Car("Mercedes",
+                "YYT8978",
+                2,
+                false);
 
         //Creating "Motorcycle" class objects
-        Motorcycle motorcycle1 = new Motorcycle("Harley-Davidson", "TG55RF", 600, false);
-        Motorcycle motorcycle2 = new Motorcycle("BMW", "YYT8765", 250, true);
+        Motorcycle motorcycle1 = new Motorcycle("Harley-Davidson",
+                "TG55RF",
+                600,
+                false);
+        Motorcycle motorcycle2 = new Motorcycle("BMW",
+                "YYT8765",
+                250,
+                true);
 
         //Creating "FullTime" class objects
-        FullTime fullTimeEmployee1 = new FullTime("Michael Jackson", 53, car1, 5000, 300);
-        FullTime fullTimeEmployee2 = new FullTime("Brad Pitt", 30, motorcycle2, 4000, 700);
+        FullTime fullTimeEmployee1 = new FullTime("Michael Jackson",
+                53,
+                car1,
+                5000,
+                300);
+        FullTime fullTimeEmployee2 = new FullTime("Brad Pitt",
+                30,
+                motorcycle2,
+                4000,
+                700);
 
         //Creating "Intern" class objects
-        Intern internEmployee1 = new Intern("Sandra de Sa", 60, motorcycle1, "Lambton College");
-        Intern internEmployee2 = new Intern("Lisa Simpson", 23, car2, "Lambton College Sarnia");
+        Intern internEmployee1 = new Intern("Sandra de Sa",
+                60,
+                motorcycle1,
+                "Lambton College");
+        Intern internEmployee2 = new Intern("Lisa Simpson",
+                23,
+                car2,
+                "Lambton College Sarnia");
 
         //Creating "CommissionBasedPartTime" class objects
         CommissionBasedPartTime cbptEmployee1 = new CommissionBasedPartTime("John",

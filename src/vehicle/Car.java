@@ -4,7 +4,10 @@ public class Car extends Vehicle {
     private final int noOfDoors;
     private final boolean hasSunRoof;
 
-    public Car(String make, String plate, int noOfDoors, boolean hasSunRoof) {
+    public Car(String make,
+               String plate,
+               int noOfDoors,
+               boolean hasSunRoof) {
         super(make, plate);
         this.noOfDoors = noOfDoors;
         this.hasSunRoof = hasSunRoof;

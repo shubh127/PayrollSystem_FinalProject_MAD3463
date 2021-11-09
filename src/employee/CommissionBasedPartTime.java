@@ -5,7 +5,12 @@ import vehicle.Vehicle;
 public class CommissionBasedPartTime extends PartTime {
     private final double commission;
 
-    public CommissionBasedPartTime(String name, int age, Vehicle vehicle, double rate, double hoursWorked, double commission) {
+    public CommissionBasedPartTime(String name,
+                                   int age,
+                                   Vehicle vehicle,
+                                   double rate,
+                                   double hoursWorked,
+                                   double commission) {
         super(name, age, vehicle, rate, hoursWorked);
         this.commission = commission;
     }

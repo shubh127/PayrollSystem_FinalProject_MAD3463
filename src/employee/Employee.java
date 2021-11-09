@@ -9,7 +9,9 @@ abstract public class Employee implements IPrintable {
     private final int age;
     private final Vehicle vehicle;
 
-    public Employee(String name, int age, Vehicle vehicle) {
+    public Employee(String name,
+                    int age,
+                    Vehicle vehicle) {
         this.name = name;
         this.age = age;
         this.vehicle = vehicle;

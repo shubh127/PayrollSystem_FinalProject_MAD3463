@@ -7,7 +7,11 @@ abstract public class PartTime extends Employee {
     private final double rate;
     private final double hoursWorked;
 
-    public PartTime(String name, int age, Vehicle vehicle, double rate, double hoursWorked) {
+    public PartTime(String name,
+                    int age,
+                    Vehicle vehicle,
+                    double rate,
+                    double hoursWorked) {
         super(name, age, vehicle);
         this.rate = rate;
         this.hoursWorked = hoursWorked;
