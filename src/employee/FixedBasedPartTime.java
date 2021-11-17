@@ -16,7 +16,7 @@ public class FixedBasedPartTime extends PartTime {
     }
 
     @Override
-    double calcEarnings() {
+    public double calcEarnings() {
         return fixedAmount + super.calcEarnings();
     }
 

@@ -16,7 +16,7 @@ public class CommissionBasedPartTime extends PartTime {
     }
 
     @Override
-    double calcEarnings() {
+    public double calcEarnings() {
         return commission + super.calcEarnings();
     }
 

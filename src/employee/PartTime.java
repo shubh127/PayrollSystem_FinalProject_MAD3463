@@ -26,7 +26,7 @@ abstract public class PartTime extends Employee {
     }
 
     @Override
-    double calcEarnings() {
+    public double calcEarnings() {
         return rate * hoursWorked;
     }
 }

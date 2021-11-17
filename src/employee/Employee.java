@@ -21,7 +21,7 @@ abstract public class Employee implements IPrintable {
         return 2021 - age;
     }
 
-    double calcEarnings() {
+    public double calcEarnings() {
         return 1000;
     }
 
